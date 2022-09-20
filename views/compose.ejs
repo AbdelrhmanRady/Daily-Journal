@@ -1,0 +1,24 @@
+<%- include('header'); -%>
+
+
+
+<h1>Compose</h1>
+
+<form class="" action="/compose" method="post">
+
+  <label for="inputPassword5" class="form-label">Title</label>
+<input name="title" type="text" id="" class="form-control" required>
+<div id="" class="form-text">
+</div>
+<!-- <p style="font-weight: bold">Post</p> -->
+
+<div class="form-group">
+  <label for="exampleFormControlTextarea1">Post </label>
+  <textarea  required name="post" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Publish</button>
+</form>
+
+
+
+<%- include('footer'); -%>
